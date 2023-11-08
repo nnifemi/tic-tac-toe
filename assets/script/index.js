@@ -27,7 +27,7 @@ function boxClicked(e) {
 
             winning_blocks.map( box => boxes[box].style.backgroundColor = winnerIndicator);
     } else if (isDraw()) {
-      playerText.innerHTML = "It's a draw!";
+      playerText.innerHTML = "It's a draw";
     } else {
       currentPlayer = currentPlayer === X_Player ? O_Player : X_Player;
     }
