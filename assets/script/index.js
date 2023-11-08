@@ -20,6 +20,7 @@ function boxClicked(e) {
 
     if(!spaces[id]){
         spaces[id] = currentPlayer
+        e.target.classList.add(currentPlayer === X_Player ? 'player-X' : 'player-O');
         e.target.innerText = currentPlayer
         if(playerHasWon() !==false){
             playerText.innerHTML = `${currentPlayer} has won`;
