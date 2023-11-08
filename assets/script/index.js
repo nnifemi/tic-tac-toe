@@ -25,8 +25,8 @@ function boxClicked(e) {
             playerText.innerHTML = `${currentPlayer} has won`;
             let winning_blocks = playerHasWon()
 
-            winning_blocks.map( box => boxes[box].style.backgroundColor = winnerIndicator)
-            return
+            winning_blocks.map( box => boxes[box].style.backgroundColor = winnerIndicator);
+            return;
         }
 
         currentPlayer = currentPlayer === X_Player ? O_Player : X_Player
