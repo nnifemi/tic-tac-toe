@@ -14,7 +14,7 @@ This game can only be played with another person, it is a 2 player game.
 
 # How To Create The Game Yourself With Explanations:
 
-## The JavaScript Explanation
+## The JavaScript Explanation :
 
 ```javascript
 // Use strict to write cleaner code and catch errors or bugs
@@ -105,7 +105,7 @@ function restart() {
 // Function to start the game
 startGame();
 ```
-# HTML Code Explanation :
+## HTML Code Explanation :
 
 ```html
 <!DOCTYPE html>
