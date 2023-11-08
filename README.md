@@ -149,6 +149,6 @@ startGame();
 </body>
 </html>
 ```
-### For a quick preview of the game click (here)[https://nnifemi.github.io/tic-tac-toe/]
+### For a quick preview of the game click [here](https://nnifemi.github.io/tic-tac-toe/)
 
 
