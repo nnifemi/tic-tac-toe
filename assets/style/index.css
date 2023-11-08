@@ -2,7 +2,9 @@
 
 :root {
     --green: #53f24e;
-    --winning-blocks: #2d414b;
+    --orange: #ffa500;
+    --blue: #1d1d9edd;
+    --winning-blocks: #5a7684;
 }
 
 h1 {
@@ -23,9 +25,9 @@ h1 {
     align-items: center;
     justify-content: center;
     color: var(--green);
-    font-size: 120px;
-    border-right: 2px solid;
-    border-bottom: 2px solid;
+    font-size: 100px;
+    border-right: 2px solid var(--green);
+    border-bottom: 2px solid var(--green);
 }
 .box:nth-child(3n) {
     border-right: none;
@@ -33,17 +35,31 @@ h1 {
 .box:nth-child(6) ~ .box {
     border-bottom: none;
 } 
+
 button {
     padding: 10px 20px;
     border-radius: 10px;
     background-color: var(--green);
-    color: #333;
-    border-color: var(--green);
+    color: #ffffff;
+    border-color: var(--blue);
     font-size: 18px;
-    transition: 200ms transform;
+    transition: 0.2s transform;
     font-weight: 600;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
 }
+
 button:hover {
     cursor: pointer;
     transform: translateY(-2px);
+}
+
+.player-X {
+    color: red;
+}
+
+.player-O {
+    color: orange;
 }
