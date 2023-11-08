@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 :root {
-    --orange: #F2C14E;
+    --green: #53f24e;
     --winning-blocks: #2d414b;
 }
 
@@ -22,7 +22,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--orange);
+    color: var(--green);
     font-size: 120px;
     border-right: 2px solid;
     border-bottom: 2px solid;
@@ -36,9 +36,9 @@ h1 {
 button {
     padding: 10px 20px;
     border-radius: 10px;
-    background-color: var(--orange);
+    background-color: var(--green);
     color: #333;
-    border-color: var(--orange);
+    border-color: var(--green);
     font-size: 18px;
     transition: 200ms transform;
     font-weight: 600;

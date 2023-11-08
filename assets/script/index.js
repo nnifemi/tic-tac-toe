@@ -1,5 +1,5 @@
 let playerText = document.getElementById('playerText')
-let restartBtn = document.getElementById('restartBtn')
+let restartButton = document.getElementById('restartButton')
 let boxes = Array.from(document.getElementsByClassName('box'))
 
 const O_Player = "O"
@@ -22,4 +22,12 @@ function boxClicked(e) {
     }
 }
 
+restartButton.addEventListener('click', restart)
+
+function restart() {
+    spaces.fill(null)
+    boxes.forEach(box => {
+        box.innerText = ''
+    })
+}
 startGame()
