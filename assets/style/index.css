@@ -32,7 +32,7 @@ h1 {
 .box:nth-child(3n) {
     border-right: none;
 }
-.box:nth-child(6) ~ .box {
+.box:nth-child(6)~.box {
     border-bottom: none;
 } 
 
