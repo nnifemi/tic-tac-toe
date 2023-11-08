@@ -140,7 +140,7 @@ startGame();
             <!-- Individual box elements for the Tic Tac Toe game -->
             <div class="box" id="0"></div>
             <div class="box" id="1"></div>
-            <div class "box" id="2"></div>
+            <div class="box" id="2"></div>
             <div class="box" id="3"></div>
             <div class="box" id="4"></div>
             <div class="box" id="5"></div>
