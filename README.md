@@ -148,4 +148,7 @@ startGame();
     </div>
 </body>
 </html>
+```
+### For a quick preview of the game click (here)[https://nnifemi.github.io/tic-tac-toe/]
+
 
