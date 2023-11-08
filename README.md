@@ -1,6 +1,7 @@
 # Tic-Tac-Toe Game in JavaScript
 
 This is a simple implementation of a tic-tac-toe game in JavaScript. Players can take turns to make their moves, and the game will determine if there's a winner, loss or a draw.
+
 This game can only be played with another person, it is a 2 player game.
 
 ## How to Use
