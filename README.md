@@ -5,7 +5,7 @@ This is a simple implementation of a tic-tac-toe game in JavaScript. Players can
 
 This game can only be played with another person, it is a 2 player game.
 
-## How to Use
+## How to Play
 
 1. Click on the empty boxes to make your moves.
 2. X starts first followed by O.
