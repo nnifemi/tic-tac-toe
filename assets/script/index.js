@@ -26,11 +26,12 @@ function boxClicked(e) {
             let winning_blocks = playerHasWon()
 
             winning_blocks.map( box => boxes[box].style.backgroundColor = winnerIndicator);
-            return;
-        }
-
-        currentPlayer = currentPlayer === X_Player ? O_Player : X_Player
+    } else if (isDraw()) {
+      playerText.innerHTML = "It's a draw!";
+    } else {
+      currentPlayer = currentPlayer === X_Player ? O_Player : X_Player;
     }
+  }
 }
 
 const winningCombos = [
@@ -46,25 +47,6 @@ const winningCombos = [
 
 function isDraw() {
   return spaces.every((space) => space !== null) && !playerHasWon();
-}
-
-function boxClicked(e) {
-  const id = e.target.id;
-
-  if (!spaces[id]) {
-    spaces[id] = currentPlayer;
-    e.target.innerText = currentPlayer;
-
-    if (playerHasWon() !== false) {
-      playerText.innerHTML = `${currentPlayer} has won`;
-      let winning_blocks = playerHasWon();
-      winning_blocks.map((box) => (boxes[box].style.backgroundColor = winnerIndicator));
-    } else if (isDraw()) {
-      playerText.innerHTML = "It's a draw!";
-    } else {
-      currentPlayer = currentPlayer === X_Player ? O_Player : X_Player;
-    }
-  }
 }
 
 function playerHasWon() {
