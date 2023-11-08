@@ -4,6 +4,8 @@ This is a simple implementation of a tic-tac-toe game in JavaScript. Players can
 
 
 This game can only be played with another person, it is a 2 player game and it makes use of: 
+
+
 [![HTML](https://img.shields.io/badge/HTML-FF5733?style=for-the-badge&logo=html5&logoColor=white)](https://www.w3.org/TR/html52/)
 [![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://www.w3.org/Style/CSS/Overview.en.html)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
